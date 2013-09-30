@@ -22,9 +22,16 @@ $( document ).bind( "ready", function() {
 	$.support.cors = true;
 	$.mobile.allowCrossDomainPages = true;
 
+    var success = function(data){
+        alert(data);
+    }
+
 	$( "#shake" ).bind( "click", function(event, ui) {
-		alert('boo');
-	});	
+        $.ajax({
+            dataType: "json",
+            url: 'http://localhost:20000/ball',
+            success: success
+        });	});
 	
 });
 

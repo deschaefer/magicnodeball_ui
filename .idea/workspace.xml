@@ -7,6 +7,7 @@
     <ignored path="magicnodeball_ui.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b7be1949-afc5-4d6c-abd4-59223de43f14" time="1380412257076" ignored="false" />
+    <file path="/index.html" changelist="b7be1949-afc5-4d6c-abd4-59223de43f14" time="1380556972514" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="558" selection-end="558" vertical-scroll-proportion="0.37441498">
+            <state line="24" column="8" selection-start="717" selection-end="717" vertical-scroll-proportion="0.56162244">
               <folding />
             </state>
           </provider>
@@ -216,7 +217,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="558" selection-end="558" vertical-scroll-proportion="0.37441498">
+        <state line="24" column="8" selection-start="717" selection-end="717" vertical-scroll-proportion="0.56162244">
           <folding />
         </state>
       </provider>
