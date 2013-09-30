@@ -23,7 +23,8 @@ $( document ).bind( "ready", function() {
 	$.mobile.allowCrossDomainPages = true;
 
     var success = function(data){
-        alert(data);
+        var answer = data.magicnodeball.reponse;
+        $('#answer').html(answer);
     }
 
 	$( "#shake" ).bind( "click", function(event, ui) {
@@ -37,12 +38,13 @@ $( document ).bind( "ready", function() {
 
 
 </script> 
-<div data-role="page" data-theme="b" id="home" data-transition="fade">
+<div data-role="page" data-theme="a" id="home" data-transition="fade">
   <div data-role="header">
     <h1>Magic Node Ball</h1>
   </div>
   <div data-role="content">
     <p data-role='button' id='shake'>Shake</p>
+    <p style='text-align: center; font-size: 2em' id='answer'></p>
   </div>
 
   <div data-role="footer" class='ui-bar' data-position="fixed">
@@ -50,7 +52,7 @@ $( document ).bind( "ready", function() {
   </div>
 </div>
 
-<div data-role="page" id="about" data-add-back-btn="true" data-back-btn-text="Previous" data-transition="fade">
+<div data-role="page" id="about" data-theme='a' data-add-back-btn="true" data-back-btn-text="Previous" data-transition="fade">
   <div data-role="header">
     <h1>About</h1>
   </div>
