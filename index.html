@@ -29,7 +29,7 @@ $( document ).bind( "ready", function() {
 	$( "#shake" ).bind( "click", function(event, ui) {
         $.ajax({
             dataType: "json",
-            url: 'http://localhost:20000/ball',
+            url: 'http://mnb-env.elasticbeanstalk.com/ball',
             success: success
         });	});
 	
