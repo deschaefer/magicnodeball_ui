@@ -34,29 +34,35 @@
         // Make your jQuery Mobile framework configuration changes here!
 
 // ajax code
-//        $.support.cors = true;
-//        $.mobile.allowCrossDomainPages = true;
-//        var success = function (data) {
-//            var answer = data.magicnodeball.reponse;
-//            $('#answer').html(answer);
-//        }
+        $.support.cors = true;
+        $.mobile.allowCrossDomainPages = true;
+
+        var success = function (data) {
+            var answer = data.magicnodeball.reponse;
+            $('#answer').html(answer);
+        }
 
         $("#shake").bind("click", function (event, ui) {
 
-            var pos = Math.floor((Math.random()*10)+1);
-            var rval = {};
-            rval.magicnodeball = {};
-            rval.magicnodeball.reponse = choices[pos-1];
-            var answer = rval.magicnodeball.reponse;
-            $('#answer').html(answer);
+//            var pos = Math.floor((Math.random()*10)+1);
+//            var rval = {};
+//            rval.magicnodeball = {};
+//            rval.magicnodeball.reponse = choices[pos-1];
+//            var answer = rval.magicnodeball.reponse;
+//            $('#answer').html(answer);
 
 
 // ajax code
-//            $.ajax({
-//                dataType: "json",
-//                url: 'http://mnb-env.elasticbeanstalk.com/ball',
-//                success: success
-//            });
+            $.ajax({
+                dataType: 'xml',
+                crossDomain: true,
+                data: { dataname : 'demo_dna_consu',
+                        key : 'Gp93neGEP2682dp4IImv',
+                        token : 'i0Wh1eSid5IYE0U9UVT3',
+                        table : 'menu_groups' },
+                url: 'https://admin.poslavu.com/cp/reqserv/',
+                success: success
+            });
         });
 
     });
