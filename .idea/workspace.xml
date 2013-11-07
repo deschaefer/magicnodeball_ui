@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7be1949-afc5-4d6c-abd4-59223de43f14" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="b7be1949-afc5-4d6c-abd4-59223de43f14" name="Default" comment="" />
     <ignored path="magicnodeball_ui.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b7be1949-afc5-4d6c-abd4-59223de43f14" time="1383451555072" ignored="false" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.48120302">
+            <state line="28" column="31" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0398773">
               <folding>
                 <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -326,7 +324,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.48120302">
+        <state line="28" column="31" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0398773">
           <folding>
             <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
